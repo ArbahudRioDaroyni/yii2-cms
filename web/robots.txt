@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /search
+
+Sitemap: http://rscarolus.or.id/sitemap.xml

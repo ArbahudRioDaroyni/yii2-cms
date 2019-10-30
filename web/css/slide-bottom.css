@@ -1,0 +1,52 @@
+.slide-up {
+	display: none;
+	-moz-animation: slide 9s ease 3.5s forwards;
+	-webkit-animation: slide 9s ease 3.5s forwards;
+	-o-animation: slide 9s ease 3.5s forwards;
+	-ms-animation: slide 9s ease 3.5s forwards;
+	animation: slide 9s ease 3.5s forwards;
+}
+.slide-up.contact {
+	background: #f1f2f2;
+	-webkit-box-shadow: inset 0px 10px 10px 0px rgba(0,0,0,0.13);
+	-moz-box-shadow: inset 0px 10px 10px 0px rgba(0,0,0,0.13);
+	box-shadow: inset 0px 10px 10px 0px rgba(0,0,0,0.13);
+}
+div.container.slide-down {
+        padding-bottom: 60px;
+}
+.slide-down{
+	-moz-animation: slide 9s ease 3.5s forwards;
+	-webkit-animation: slide 9s ease 3.5s forwards;
+	-o-animation: slide 9s ease 3.5s forwards;
+	-ms-animation: slide 9s ease 3.5s forwards;
+	animation: slide 9s ease 3.5s forwards;
+}
+span.glyphicon-menu-down.hidden-slide {
+	font-weight: 600;
+	cursor: pointer;
+	color: #da0f3d;
+	transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transition: transform ease-in-out 0.2s;
+	-moz-transition: transform ease-in-out 0.2s;
+	-webkit-transition: transform ease-in-out 0.2s;
+}
+
+.closed span.glyphicon-menu-down.hidden-slide {
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+.slide-up{height: 0px;}
+div.contact-btn{
+	width: 200px;
+	float: none;
+	text-align: center;
+	margin-left: auto;
+	cursor: pointer;
+	padding-left: 10px;
+	margin-right: auto;
+}

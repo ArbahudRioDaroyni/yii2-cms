@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+@media (min-width:1025px) { 
+/*	.menu-about .menu ul.nav-tabs li {
+		width: 18.4%;
+		margin-right: 2%;
+	}*/
+	.menu-about .menu ul.nav-tabs li:last-child {
+		margin-right: 0;
+	}
+	.i-care .row {
+		padding: 0 5%;
+		text-align: center;
+	}
+	.i-care .row div{
+		width: 19%;
+		color: #fff;
+
+	}
+	.i-care .row div p {
+		padding: 0 16%;
+		font-size: 17px;
+		line-height: 20px;
+		padding-top: 10px;
+	}
+	.i-care .row div h5 {
+		font-size: 1.4em;
+		font-weight: 600;
+	}
+	.i-care .row div:last-child {
+		margin-right: 0;
+	}
+	.content-profile {
+		width: 18%;
+		float: left;
+	}
+	.profile .detail-profile {
+		width: 80%;
+		padding-left: 2%;
+		padding-right: 2%;
+		float: right
+	}
+	.row.riwayat .kiri {
+		width: 20%;
+		float: left;
+	}
+	.row.riwayat .kanan {
+		width: 80%;
+		float: right;
+	}
+}
+
+@media (min-width: 1600px){
+	.carousel-caption{
+		max-width: 1170px;
+		margin-left: -585px;
+		left: 50% !important;
+	}
+	.carousel-inner .item img{
+		min-height: 700px;
+	}
+}
+
+@media (max-width: 1199px){
+	.navbar-nav > li > a{font-size: 10px;}
+}
+
+@media (max-width: 1024px){
+	.navbar-nav > li > a{font-size: 9px;}
+}
+
+
+@media (max-width: 991px ) {
+	/** .navbar-toggle {
+	     display: block;
+	     margin-top: 13px;
+	     border: none;
+	     z-index: 50;
+	     margin-right: 5px;
+	 }**/
+	.navbar-nav > li {
+		margin: 0;
+	}
+	.carousel-inner .item{height:325px}
+	.carousel-caption {left:18%}
+	.carousel-caption h3{font-size:1.0em;}
+	.carousel-caption p{font-size:0.8em;}
+	.nav-justified > li > a{font-size:0.8em}
+	div#bs-example-navbar-collapse-1.navbar-collapse.text-center.collapse.in {
+		width: 100%;
+	}
+	.logo-wrap > a {
+		height: 60px;
+	}
+	.logo-wrap img {
+		height: 48px;
+		width: auto;
+	}
+	.navbar-header {
+		width: 100%;
+		padding-right: 0;
+		margin:0;
+	}
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin: 0;  
+	}
+	.container-fluid {
+		padding: 0 15px;
+	}
+	.navbar-nav {
+		width: 100%;
+		padding: 0px 0;
+	}
+	.nav-wrap {
+		width: 100%;
+		padding: 0;
+		min-height: 0;
+	}
+	.emergency-content {
+		float: left;
+	}
+	.emergency {
+		font-size: 10px;
+	}   
+	.excellence .content {
+		width: 100%;
+	}
+	.article {
+		margin-bottom: 30px;
+	}
+	.event .content {
+		width: 100%;
+		height: 112px;
+	}
+	.event .content.dua{
+		float: none;
+	}
+	footer .first {
+		padding: 40px 30px 0;
+		margin: 0;
+		width: 100%;
+	}
+	.container.footer {
+		width: 100%;
+		margin: 0;
+		padding: 0 30px;
+	}
+	.container {
+		width: 100%;
+		margin: 0;
+		padding: 0 30px;
+	}
+	a.btn.contact {
+		margin-top: -8%;
+	}
+	.menu .nav.nav-tabs.menu-list{
+		padding:0;
+	}
+	.nav.nav-tabs.menu-list li{
+		width:100%;
+	}
+	h2.patient, .title h2{
+		line-height:33px;
+		margin-bottom:30px;
+	}
+	.outpatient .title{
+		padding:0;
+	}
+	.footer{
+		text-align:center;
+	}
+	.address > img{
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:15px;
+	}
+	.panel-title{
+		font-size:12px;
+		position:relative;
+	}
+	h4.panel-title a{
+		width:170px;
+		text-overflow:ellipsis;
+		overflow:hidden;
+		display:inline-block;
+	}
+	.kanan-putar {
+		float:none;
+		position: absolute;
+		right: 0;
+		width: 10px;
+		top: 0;
+	}
+	.container-find-doctor .box{
+		background:none;
+		box-shadow:none;
+		margin:0 0 30px 0;
+		padding:0;
+		text-align:center;
+		display:block;
+	}
+	
+	#our-doctor .container {width: 100%;padding: 0;}
+	ul.list li .doctor.filter-doctor .bottom{height:100px;}
+	.doctor a{max-width:285px;margin:auto;display:block;}
+	.doctor .bottom {padding:5%;width:98%;position:relative;}
+	.doctor .bottom h5{font-size:14px;min-height:0;}
+	.doctor .bottom > .link > span{font-size:12px;}
+	.doctor .img {height:300px;overflow:hidden;}
+	.sticky-banner{display:none;}
+	
+	.navbar-toggle{margin-top:16px;margin-right:10px;margin-bottom:0;}
+	.navbar-toggle .icon-bar{height: 3px;width: 22px;}
+	
+	footer{
+		padding-bottom: 0;
+		text-align:center;
+	}
+	.jadwal-dokter > .table-responsive > thead th.spec-title{font-size:14px;}
+	.jadwal-dokter > .table-responsive > tbody > tr > td:first-child{font-size:12px;}
+	.jadwal-dokter > .table-responsive > tbody > tr > td > div{font-size:9px;width:67px;}
+}
+
+@media (max-width: 767px ) {
+	.emergency {display:none}
+}
+
+@media (max-width:641px)  { 
+	
+	.title-img h4{
+		font-size:18px;
+		font-weight: 600;
+	}
+	.excellence p{
+		font-size:13px;
+	}
+	
+	a.btn.contact {
+		margin-top: -11%;
+	}
+	.excellence .content {
+		width: 100%;
+		padding: 15px 30px 10px;
+	}
+	.event .content {
+		width: 100%;
+		height: 94px;
+	}
+	.event .content.dua{
+		float: none;
+	}
+	.event .content .left {
+		width: 22%;
+	}
+	.event .content .right.dua p {
+		width: 70%;
+	}
+	.article .content {
+		width: 100%;
+	}
+	.article {
+		margin-bottom: 30px;
+	}
+	.address {
+		text-align: center;
+	}
+	.find-us {
+		padding-top: 0px;
+	}
+	.find-us span {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 11px;
+	}
+	.socmed li:first-child{
+		display:none;
+	}
+	.find-us span::after {
+		content:"";
+	}
+	.find-us ul {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+	}
+	div.terms {
+		text-align: center;
+		display: none;
+	}
+	ul.terms {
+		padding-left: 0;
+		padding-top: 0px;
+	}
+	ul.terms a{font-size: 0.75em;}
+	ul.terms li {
+		display: block; 
+		line-height: 1.5em;
+	}
+/* 	ul.terms li:first-child::after {
+		content: '|';
+		padding-left:10px;
+		padding-right: 5px;
+	} */
+	footer{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	p.about-detail{
+		padding:10px 5px;
+		font-size:14px;
+	}
+	.powered p{
+		text-align:center;
+	}
+	.event .content .right p{
+		font-size:12px;
+		height:auto;
+	}
+	.event .content{
+		padding: 13px 5px 5px 2px;
+	}
+	.event .content .right a{
+		color: #fff;
+		font-size:10px;
+	}
+	.kontak{
+		margin-top:30px;
+	}
+}
+
+@media (max-width: 640px){
+	.container{padding: 0px;}
+	section.col-md-12.outpatient{padding: 0;}
+	h4.panel-title{position: relative;}
+	h4.panel-title a{line-height: 1.5em;padding-right: 12px;}
+	span.kanan-btn{display: none;}
+	.kanan-putar{top: 50%;margin-top: -17px;position: absolute;}
+	.panel-general .panel-heading, .panel-outpatient .panel-heading{position: relative;}
+	.panel-general .panel-heading::after, .panel-outpatient .panel-heading::after{content: '';position: absolute;top: 0;right: 40px;height: 100%; width: 1px;background: #fff;}
+	.service .top{padding-bottom: 10px;max-height: 46.51%;height: auto;}
+	section.main-slider #myCarousel{margin-top: 70px !important;}
+	.carousel-inner .item{height:220px}
+	.carousel-caption h3{font-size:1.3em;}
+	.carousel-caption p{font-size:0.8em;}
+	.carousel-control.left, .carousel-control.right{top: 26% !important;}
+	.excellence{padding: 10px 15px 0;}
+	.slide-down > .container{padding: 0 15px;}
+	h3.patient{line-height: 1em;}
+	.patient > span.tebal, .title h2 span.tebal{padding-bottom: 10px;}
+	.copyright p, .powered p{font-size: 0.65em;font-weight: 300;padding: 0;}
+	.copyright p{margin-bottom: 0px;}
+	.container-find-doctor{padding: 0 15px;}
+	.service-content{padding-top: 20px}
+	.navbar-nav{margin: 0 -15px;width: auto;border-top: 1px solid #bc1919;/*! float: right; */}
+	.navbar-nav > li > a{text-align: left;border-bottom: 1px solid #bc1919;padding: 8px 15px;line-height: 26px;display: block;margin: 0;height: 26px;box-sizing: content-box;}
+	.navbar-nav > li.call-us > a,
+	.navbar-nav > li.find-doctor > a{background: #fff;color:#333;border:none;border-bottom: 1px solid #bc1919;}
+	.navbar-nav > li.find-doctor > a::after{display: none;}
+	.navbar-nav > li.call-us > a::after{content: '\e259'; font-family: 'Glyphicons Halflings';color: #eb1846;display: block;font-weight: 400;background: none;-moz-osx-font-smoothing: grayscale;/*! line-height: 1; */}
+	.navbar-nav > li.call-us > a::after,
+	span.dropdown{position: absolute; right: 20px;top: 14px;left: unset;width: auto;height: auto;line-height: 13px;}
+	.navbar-nav > li.call-us.open > a::after,
+	.navbar-nav > li.open span.dropdown{transform: rotate(-90deg);}
+/*	.nav.main-menu .open > a, .nav .open > a:focus, .nav .open > a:hover{background: #bc1919; color: #fff;}
+	.navbar-nav.main-menu > li > .dropdown-menu{background: #fff;border-bottom: 1px solid #bc1919;}
+	.navbar-nav.main-menu > li > .dropdown-menu > li{margin: 0 !important;border: none !important;}
+	.navbar-nav.main-menu > li > .dropdown-menu > li > a{color: #000;padding: 5px 35px;}*/
+	.event-box .title > a{font-weight: 600;}
+	.event-box .event-box-content > a{font-size: 10px;}
+	.event-box{border-bottom: 4px solid #bc1919;padding-bottom: 10px;margin-bottom: 30px;}
+	.article .content .img{overflow: hidden;}
+	.article .content .img > img{height: auto;}
+	.visible-xs > .emergency{display: block;float: left;position: relative;width: 100%;}
+	.search{float: none;text-align: center;}
+	.search > .search-submit{position: relative;margin-left: -40px;}
+	.search > input[type="text"]{width: 180px}
+	.search > input[type="text"]:focus{width: 260px;}
+	.carousel-control.right,
+	.carousel-control.left{display: none !important;}
+	.service .panel-body .top .carousel.slide .carousel-inner{height: 250px}
+	.service .panel-body .top .carousel.slide{height: 250px}
+	.about-details{padding-left: 15px; padding-right: 15px;font-size: 0.925em; line-height: 1.75em;}
+	.aboutus .vision-mission{padding-left: 25px; padding-right: 25px;}
+	.aboutus .vision-mission .content{padding: 0 30px;}
+	.box img{max-width: 100%;}
+	.white-section{margin-right: 0;}
+	.panel-default > .panel-heading + .panel-collapse > .panel-body{padding: 15px 0; }
+	#accordion .service-content,
+	#accordion .col-md-5,
+	#accordion .col-md-7,
+	#accordion .col-md-12,
+	#accordion .col-xs-12,
+	.inpatient .col-md-9,
+	.inpatient .col-md-12,
+	.inpatient .col-md-5,
+	.inpatient{padding-left: 5px; padding-right: 5px;}
+	.mcu-box{width: 100%;margin: 0 0 30px;padding: 0 10px;}
+	.carousel-inner{margin-bottom: 20px;}
+	.find-doctor .sub-menu li a{display: inline-block; padding-left: 25px;}
+}
+
+@media (max-width: 350px ) {
+	.doctor .img {height:200px;overflow:hidden;}
+	ul.list li .doctor.filter-doctor .bottom{max-height:125px;}
+	.carousel-inner .item{height:95px}
+	.carousel-caption h3, .carousel-caption p{display:none;}
+}
